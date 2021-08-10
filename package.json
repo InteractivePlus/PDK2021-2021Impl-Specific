@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@interactiveplus/pdk2021-common": "file:../pdk2021-common",
-    "i18n-codes-js": "^0.0.1"
+    "i18n-codes-js": "^0.0.1",
+    "joi": "^17.4.2"
   }
 }
