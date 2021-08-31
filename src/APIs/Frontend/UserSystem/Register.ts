@@ -125,6 +125,15 @@ const RegisterAPI : PDKCaptchaRequiredAPI<RegisterAPIParam,RegisterAPIReturn,Reg
         requireOAuthToken: false,
         requireUserToken: false,
         verifiesClientSecretIfAuthedByBackend: false
+    },
+    vericodeInfo: {
+        requiresVeriCode: false,
+        enablesLongCode: false,
+        enablesShortCode: false,
+        requiresVeriCodeToMatchClientID: false,
+        requiresVeriCodeToMatchMaskID: false,
+        requiresVeriCodeToMatchPDK: false,
+        requiresVeriCodeToMatchUID: false
     }
 };
 
